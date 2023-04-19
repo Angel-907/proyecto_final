@@ -1,0 +1,240 @@
+header{
+    text-align: center;
+    font-size: 300%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: rgb(197, 197, 197);
+}
+
+.topnav{
+    background-color: gray;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serifS;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active{
+    background-color: #037bc0;
+    color: white;
+}
+
+.hero{
+    display: flex;
+    max-width: 100%;
+    height: 80vh;
+    background-image: url(principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.contprdct1{
+    max-width: 90%;
+    max-height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 65% 36%;
+}
+
+.imagen1{
+    width: 100%;
+    height: 60vh;
+}
+
+.producto1{
+    font-size: 20cap;
+    width: 100%;
+    height: 60vh;
+    background-color: #037bc0;
+    grid-column: 2;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.contprdct2{
+    max-width: 90%;
+    max-height: auto;
+    margin: auto;
+    display: grid;
+    gap: 1%;
+    grid-template-columns: 50% 50%;
+}
+
+.imagen2{
+    width: 100%;
+    height: 30vw;
+}
+
+.imagen3{
+    width: 100%;
+    height: 30vw;
+}
+
+.producto2{
+    font-size: 20cap;
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: #037bc0;
+    margin-top: -3vh;
+}
+
+.producto3{
+    font-size: 20cap;
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: #037bc0;
+    margin-top: -3vh;
+}
+
+.contprdct3{
+    max-width: 90%;
+    max-height: auto;
+    margin: auto;
+    display: grid;
+    gap: 1%;
+    grid-template-columns: 33% 33% 33%;
+    grid-row: auto auto;
+}
+
+.imagen4{
+    width: 100%;
+    height: 25vw;
+}
+
+.imagen5{
+    width: 100%;
+    height: 25vw;
+}
+
+.imagen6{
+    width: 100%;
+    height: 25vw;
+}
+
+.producto4{
+    font-size: 20cap;
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: #037bc0;
+    margin-top: -3vh;
+}
+
+.producto5{
+    font-size: 20cap;
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: #037bc0;
+    margin-top: -3vh;
+}
+
+.producto6{
+    font-size: 20cap;
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: #037bc0;
+    margin-top: -3vh;
+}
+
+.contcategorias{
+    max-width: 90%;
+    margin: auto;
+    display: grid;
+    gap: 1%;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.imagencategoria1{
+    width: 100%;
+    height: 30vh;
+}
+
+.imagencategoria2{
+    width: 100%;
+    height: 30vh;
+}
+
+.imagencategoria3{
+    width: 100%;
+    height: 30vh;
+}
+
+.categoria1{
+    text-align: center;
+}
+
+.categoria1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.categoria2{
+    text-align: center;
+}
+
+.categoria2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.categoria3{
+    text-align: center;
+}
+
+.categoria3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.Footercont{
+    max-width: 90%;
+    margin: auto;
+    gap: 1%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+
+.Categorias a{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+}
+
+.Sobre_Nosotros a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.Soporte a{
+    text-decoration: none;
+    color: black;
+}
