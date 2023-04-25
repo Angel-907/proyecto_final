@@ -31,6 +31,10 @@ header{
     color: white;
 }
 
+.topnav .icon{
+    display: none;
+}
+
 .hero{
     display: flex;
     max-width: 100%;
@@ -69,6 +73,21 @@ h2{
     word-wrap: break-word;
 }
 
+.btn1{
+    background-color: rgb(64, 240, 64);
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.btn1:hover{
+    opacity: 0.6;
+}
+
 .contprdct2{
     max-width: 90%;
     max-height: auto;
@@ -91,7 +110,7 @@ h2{
 .producto2{
     font-size: 20cap;
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     text-align: center;
     word-wrap: break-word;
     background-color: #037bc0;
@@ -101,7 +120,7 @@ h2{
 .producto3{
     font-size: 20cap;
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     text-align: center;
     word-wrap: break-word;
     background-color: #037bc0;
@@ -136,7 +155,7 @@ h2{
 .producto4{
     font-size: 20cap;
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     text-align: center;
     word-wrap: break-word;
     background-color: #037bc0;
@@ -146,7 +165,7 @@ h2{
 .producto5{
     font-size: 20cap;
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     text-align: center;
     word-wrap: break-word;
     background-color: #037bc0;
@@ -156,7 +175,7 @@ h2{
 .producto6{
     font-size: 20cap;
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     text-align: center;
     word-wrap: break-word;
     background-color: #037bc0;
